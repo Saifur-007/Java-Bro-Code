@@ -28,7 +28,7 @@ public class Main {
             System.out.println("So your GPA is "+gpa+".");
         }
 
-        if (job == true){
+        if (job){
             System.out.println("Nice you have a job!");
         }else {
             System.out.println("Try to find a job.");
