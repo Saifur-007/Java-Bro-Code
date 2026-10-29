@@ -19,7 +19,21 @@ public class Main {
     // Aray
     // Object
 
-    double age = 25;
-    System.out.print(age);
+    int myAge = 25;
+    double userAge = 21;
+    String name = "Saif";
+    boolean isStudent = false;
+    boolean isSale = false;
+
+    char grade = 'A';
+    char currency = '$';
+
+    if(!isStudent){
+        System.out.println("You are not a Student.");
+    }else {
+        System.out.println("You are a Student.");
+    }
+
+    System.out.print("My age is " + myAge+".");
     }
 }
